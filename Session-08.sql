@@ -63,3 +63,7 @@ WHERE amount > 100
 GROUP BY payment_method
 HAVING AVG(amount) > 300
 ORDER BY average_amount DESC;
+
+
+
+
